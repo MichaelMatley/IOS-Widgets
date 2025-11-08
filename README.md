@@ -1,11 +1,11 @@
-# 📱 iOS Scriptable Widgets
+# IOS SCRIPTABLE WIDGETS
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
 <img width="1500" height="694" alt="image" src="https://github.com/user-attachments/assets/82b51371-a0d6-4581-84e8-a50cdb6e2198" />
 
 ---
 
-## 📖 Table of Contents
+## CONTENTS
 
 1. [Introduction](#introduction)  
 2. [Widget Overview](#widget-overview)  
@@ -20,7 +20,7 @@
 
 ---
 
-## 🧭 Introduction
+## HELLO THERE... 
 
 Welcome to my growing set of Scriptable widgets for iOS. 
 This repository exists because a few weeks ago i was looking for a specific widget for my iPhone and couldn’t find one, and not willing to pay for a widget designer app, I figured there must be a way to build your own. 
@@ -35,26 +35,28 @@ These widgets were designed with fun & are for entertainment purposes only. Well
 
 ---
 
-## 🧩 Widget Overview
+## WIDGET OVERVIEW
 
 This repository includes **10 unique widgets**, each crafted for specific use cases:
 
-| Widget Name        | Purpose                        | Size(s) Supported | Status |
-|--------------------|--------------------------------|-------------------|--------|
-| `NETWORK STATUS.js`  | fff  | Small, Medium     | ✅     |
-| `UNTITLED QUOTES.js`    | Daily calendar overview        | Medium, Large     | ✅     |
-| `GRIDCUTS MONO.js`   | Circular battery indicator     | Small             | ✅     |
-| `GRIDCUTS DUO.js`    | Pomodoro-style timer           | Medium            | ✅     |
-| `DIGITAL COUNTDOWN.js` | Dual-circle probability tool | Medium            | 🧪     |
-| `EXISTENTIAL.js`    | Ambient quote display          | Small, Medium     | ✅     |
-| `ALGORITHM OF DAY.js`  | HealthKit step count           | Medium            | ✅     |
-| `UK ENERGY MONITOR.js`     | Visual sunset countdown        | Small             | ✅     |
-| `IOS ICONS.js`       | Launchable app icons grid      | Medium, Large     | ✅     |
-| `PROGRESS TRACKER.js`     | Emoji-based mood tracker       | Small             | ✅     |
+| Widget Name           | Purpose                                          | Size(s)           | Dark Mode^^ |
+|-----------------------|--------------------------------------------------|-------------------|-------------|
+| `NETWORK STATUS.js`   | Connection monitor. Ping (ms) & battery power    | Small / Medium    | ✅          |
+| `UNTITLED QUOTES.js`  | Philosophical quotes 50 (Cycles)                 | Medium.           | ✅          |
+| `GRIDCUTS MONO.js`    | Shortcuts Template w/ 1 Label (lower)            | Dynamic^          | ✅          |
+| `GRIDCUTS DUO.js`     | Shortcuts Template w 2 Labels (upper & lower)    | Medium            | ✅          |
+| `DIGITAL COUNTDOWN.js`| Countdown to preset date & time                  | Small / Medium    | ✅          |
+| `EXISTENTIAL.js`      | Cycling Existential Facts                        | Small / Medium    | ✅          |
+| `ALGORITHM OF DAY.js` | ML Algorithms (40) Daily Change                  | Medium            | ✅          |
+| `UK ENERGY MONITOR.js`| When should i do my Laundry?                     | Dynamic^          |             |
+| `IOS ICONS.js`        | Template (SFicons) make own app icons            | Dynamic^          | ✅          |
+| `PROGRESS TRACKER.js` | Track the day, week etc and your life progress   | Medium            | ✅          |
 
+^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
+^ Dynamic size autuadjusts as you change widget size
 ---
 
-## 🛠️ Script Structure
+## SCRIPTS LAYOUT
 
 Each widget follows a modular structure for clarity and ease of customization:
 
@@ -162,7 +164,7 @@ Script.complete();
 ```
 
 
-## 📥 Installation Guide
+## INSTALLATION GUIDE (If you cant handle this then why are you on GITHUB)
 
 1. Install [Scriptable](https://apps.apple.com/app/scriptable/id1405459188) from the App Store.  
 2. Clone or download this repository.  
@@ -171,7 +173,7 @@ Script.complete();
 
 ---
 
-## 🎨 Customization Tips
+## CUSTOMISATION & THEMES
 
 - **Themes**: Most widgets support dark & light mode through dynamic functions and the colors / fonts / sizes are contained within a user configuration section usually at the top of the script 
 - **Labels**: Toggle label visibility via `showLabels` in the config.  
@@ -179,7 +181,7 @@ Script.complete();
 
 ---
 
-## 🧯 Appendix: Troubleshooting
+## APPENDIX: TROUBLESHOOTING
 
 - **Widget not updating?** Ensure Background App Refresh is enabled for Scriptable.  
 - **Layout misaligned?** Try adjusting `cornerRadius` or `padding` values.  
@@ -187,6 +189,9 @@ Script.complete();
 
 ---
 
-## 🙌 Credits & License
+## CREDITS
+
+- **Automater** Everyone on there for their posts, i learnt a lot (even for being 7 years behind)
+- **Simon Støvring** Thank you for Scriptable 
 
 Crafted by [Michael](https://github.com/michaelmatley) 
