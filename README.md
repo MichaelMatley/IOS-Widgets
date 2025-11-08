@@ -51,9 +51,13 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 | `UK ENERGY MONITOR.js`| When should i do my Laundry?                     | Dynamic^          |             |
 | `IOS ICONS.js`        | Template (SFicons) make own app icons            | Dynamic^          | ✅          |
 | `PROGRESS TRACKER.js` | Track the day, week etc and your life progress   | Medium            | ✅          |
+| `BAYESIAN INFERENCE.js` | FORTUNETELLER: COMING SOON   | Large            | ✅          |
+| `MODEL CARDS.js` | MODEL DATA CARDS: COMING SOON    | Large            | ✅          |
+| `PROBABILITY CALCULATOR.js` | COMING SOON   | Medium            | ✅          |
 
-^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
-^ Dynamic size autuadjusts as you change widget size
+- ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
+- ^ Dynamic size autuadjusts as you change widget size
+- 
 ---
 
 ## SCRIPTS LAYOUT
