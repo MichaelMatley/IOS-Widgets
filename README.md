@@ -13,10 +13,8 @@
 4. [Installation Guide](#installation-guide)  
 5. [Customization Tips](#customization-tips)  
 6. [Widget Index](#widget-index)  
-7. [Appendix A: Script Anatomy](#appendix-a-script-anatomy)  
-8. [Appendix B: Visual Layouts](#appendix-b-visual-layouts)  
-9. [Appendix C: Troubleshooting](#appendix-c-troubleshooting)  
-10. [Credits & License](#credits--license)
+7. [Appendix: Troubleshooting](#appendix-c-troubleshooting)  
+8. [Credits & License](#credits--license)
 
 ---
 
