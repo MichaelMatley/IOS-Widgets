@@ -1,7 +1,7 @@
 # 📱 iOS Scriptable Widgets
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
-<img width="427" height="427" alt="image" src="https://github.com/user-attachments/assets/9f6b9db3-9340-4d17-9fc8-8847ff470ffa" /><img width="913" height="914" alt="image" src="https://github.com/user-attachments/assets/82e29c40-3445-49c2-a1d2-5992bd6189ae" /><img width="911" height="432" alt="image" src="https://github.com/user-attachments/assets/fc16a77a-cb4e-4cfa-9d17-88377e642d68" /><img width="922" height="918" alt="image" src="https://github.com/user-attachments/assets/32054a0b-f9f6-4559-9ec8-83ecfb16405f" />
+<img width="1500" height="694" alt="image" src="https://github.com/user-attachments/assets/82b51371-a0d6-4581-84e8-a50cdb6e2198" />
 
 ---
 
