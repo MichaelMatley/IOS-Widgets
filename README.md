@@ -41,7 +41,7 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 
 | Widget Name        | Purpose                        | Size(s) Supported | Status |
 |--------------------|--------------------------------|-------------------|--------|
-| `NETWORK STATUS.js`  | Minimal weather with glass UI  | Small, Medium     | ✅     |
+| `NETWORK STATUS.js`  | fff  | Small, Medium     | ✅     |
 | `UNTITLED QUOTES.js`    | Daily calendar overview        | Medium, Large     | ✅     |
 | `GRIDCUTS MONO.js`   | Circular battery indicator     | Small             | ✅     |
 | `GRIDCUTS DUO.js`    | Pomodoro-style timer           | Medium            | ✅     |
@@ -173,35 +173,13 @@ Script.complete();
 
 ## 🎨 Customization Tips
 
-- **Themes**: Most widgets support multiple color palettes (e.g., `tealGlass`, `sunsetFade`, `grayscaleCity`).  
+- **Themes**: Most widgets support dark & light mode through dynamic functions and the colors / fonts / sizes are contained within a user configuration section usually at the top of the script 
 - **Labels**: Toggle label visibility via `showLabels` in the config.  
 - **Spacing**: Adjust padding and alignment for different screen sizes.
 
 ---
 
-## 🗂️ Widget Index
-
-Each widget has its own subfolder or script file with:
-
-- `README-widgetname.md` *(optional)* for widget-specific notes  
-- `widgetname.js` — the main script  
-- `preview.png` — optional visual preview
-
----
-
-## 📎 Appendix A: Script Anatomy
-
-> *Placeholder for deeper breakdown of reusable functions, DrawContext tricks, or layout modules.*
-
----
-
-## 🧮 Appendix B: Visual Layouts
-
-> *Placeholder for diagrams or notes on pixel spacing, circle placement, or percentage label alignment.*
-
----
-
-## 🧯 Appendix C: Troubleshooting
+## 🧯 Appendix: Troubleshooting
 
 - **Widget not updating?** Ensure Background App Refresh is enabled for Scriptable.  
 - **Layout misaligned?** Try adjusting `cornerRadius` or `padding` values.  
@@ -211,4 +189,4 @@ Each widget has its own subfolder or script file with:
 
 ## 🙌 Credits & License
 
-Crafted by [Michael](https://github.com/yourusername) 
+Crafted by [Michael](https://github.com/michaelmatley) 
