@@ -2,6 +2,8 @@
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
 <img width="1500" height="694" alt="image" src="https://github.com/user-attachments/assets/82b51371-a0d6-4581-84e8-a50cdb6e2198" />
+<img width="487" height="481" alt="image" src="https://github.com/user-attachments/assets/d12c72f7-30fc-4399-9109-74549860314e" />
+<img width="490" height="486" alt="image" src="https://github.com/user-attachments/assets/f06ebd00-fd8f-4a92-9090-7842dae2a9d7" />
 
 ---
 
