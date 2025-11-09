@@ -2,8 +2,7 @@
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
 <img width="1500" height="694" alt="image" src="https://github.com/user-attachments/assets/82b51371-a0d6-4581-84e8-a50cdb6e2198" />
-<img width="487" height="481" alt="image" src="https://github.com/user-attachments/assets/d12c72f7-30fc-4399-9109-74549860314e" />
-<img width="490" height="486" alt="image" src="https://github.com/user-attachments/assets/f06ebd00-fd8f-4a92-9090-7842dae2a9d7" />
+<img width="1096" height="542" alt="image" src="https://github.com/user-attachments/assets/397a6728-56c6-4077-a2d5-da42a9617a54" />
 
 ---
 
@@ -43,17 +42,19 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 |-----------------------|--------------------------------------------------|-------------------|-------------|
 | `NETWORK STATUS.js`   | Connection monitor. Ping (ms) & battery power    | Small / Medium    | ✅          |
 | `UNTITLED QUOTES.js`  | Philosophical quotes 50 (Cycles)                 | Medium.           | ✅          |
-| `GRIDCUTS MONO.js`    | Shortcuts Template w/ 1 Label (lower)            | Dynamic^          | ✅          |
-| `GRIDCUTS DUO.js`     | Shortcuts Template w 2 Labels (upper & lower)    | Medium            | ✅          |
-| `DIGITAL COUNTDOWN.js`| Countdown to preset date & time                  | Small / Medium    | ✅          |
-| `EXISTENTIAL.js`      | Cycling Existential Facts                        | Small / Medium    | ✅          |
-| `ALGORITHM OF DAY.js` | ML Algorithms (40) Daily Change                  | Medium            | ✅          |
-| `UK ENERGY MONITOR.js`| When should i do my Laundry?                     | Dynamic^          |             |
-| `IOS ICONS.js`        | Template (SFicons) make own app icons            | Dynamic^          | ✅          |
-| `PROGRESS TRACKER.js` | Track the day, week etc and your life progress   | Medium            | ✅          |
-| `BAYESIAN INFERENCE.js` | FORTUNETELLER: COMING SOON   | Large            | ✅          |
-| `MODEL CARDS.js` | MODEL DATA CARDS: COMING SOON    | Large            | ✅          |
-| `PROBABILITY CALCULATOR.js` | COMING SOON   | Medium            | ✅          |
+| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)            | Dynamic^        | ✅          |
+| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)    | Medium          | ✅          |
+| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                  | Small / Medium  | ✅          |
+| `EXISTENTIAL.js`        | Cycling Existential Facts                        | Small / Medium  | ✅          |
+| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change                  | Medium          | ✅          |
+| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                     | Dynamic^        |             |
+| `IOS ICONS.js`          | Template (SFicons) make own app icons            | Dynamic^        | ✅          |
+| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress   | Medium          | ✅          |
+| `                     ` |                                                  |                 |             |
+| `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       | Large           | ✅          |
+| `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   | Large           | ✅          |
+| `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  | Medium          | ✅          |
+| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       | Large           |             |     
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
 - ^ Dynamic size autuadjusts as you change widget size
