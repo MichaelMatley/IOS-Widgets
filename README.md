@@ -39,18 +39,18 @@ These widgets were designed with fun & are for entertainment purposes only. Well
 
 This repository includes **10 unique widgets**, each crafted for specific use cases:
 
-| Widget Name           | Purpose                                          | Size(s)           | Dark Mode^^ |
-|-----------------------|--------------------------------------------------|-------------------|-------------|
-| `NETWORK STATUS.js`   | Connection monitor. Ping (ms) & battery power    | Small / Medium    | ✅          |
-| `UNTITLED QUOTES.js`  | Philosophical quotes 50 (Cycles)                 | Medium.           | ✅          |
-| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)            | Dynamic^        | ✅          |
-| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)    | Medium          | ✅          |
-| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                  | Small / Medium  | ✅          |
-| `EXISTENTIAL.js`        | Cycling Existential Facts                        | Small / Medium  | ✅          |
-| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change                  | Medium          | ✅          |
-| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                     | Dynamic^        |             |
-| `IOS ICONS.js`          | Template (SFicons) make own app icons            | Dynamic^        | ✅          |
-| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress   | Medium          | ✅          |  
+| Widget Name             | Purpose                                           | Size(s)         | Dark Mode^^ |
+|-------------------------|---------------------------------------------------|-----------------|-------------|
+| `NETWORK STATUS.js`     | Connection monitor. Ping (ms) & battery power     | Small / Mediu   | ✅          |
+| `UNTITLED QUOTES.js`    | Philosophical quotes 50 (Cycles)                  | Medium.         | ✅          |
+| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)             | Dynamic^        | ✅          |
+| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)     | Medium          | ✅          |
+| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                   | Small / Medium  | ✅          |
+| `EXISTENTIAL.js`        | Cycling Existential Facts                         | Small / Medium  | ✅          |
+| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change               b   | Medium          | ✅          |
+| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |             |
+| `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅          |
+| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅          |  
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
 - ^ Dynamic size autuadjusts as you change widget size
@@ -59,12 +59,12 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 
 ## COMING SOON
 
-| Widget Name             | Purpose                                          | Size(s)         | Dark Mode |
-|-------------------------|--------------------------------------------------|-----------------|-----------|
-| `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       | Large           | ✅        |
-| `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   | Large           | ✅        |
-| `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  | Medium          | ✅        |
-| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       | Large           |           |     
+| Widget Name             | Purpose                                          | 
+|-------------------------|--------------------------------------------------|
+| `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       |     
+| `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   |         
+| `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  |       
+| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       |           
 
 ---
 
