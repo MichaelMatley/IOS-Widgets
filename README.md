@@ -9,13 +9,14 @@
 ## CONTENTS
 
 1. [Introduction](#introduction)  
-2. [Widget Overview](#widget-overview)  
-3. [Script Structure](#script-structure)  
-4. [Installation Guide](#installation-guide)  
-5. [Customization Tips](#customization-tips)  
-6. [Widget Index](#widget-index)  
-7. [Appendix: Troubleshooting](#appendix-c-troubleshooting)  
-8. [Credits & License](#credits--license)
+2. [Widget Overview](#widget-overview)
+3. [Coming Soon](#coming-soon)
+4. [Script Structure](#script-structure)  
+5. [Installation Guide](#installation-guide)  
+6. [Customization Tips](#customization-tips)  
+7. [Widget Index](#widget-index)  
+8. [Appendix: Troubleshooting](#appendix-c-troubleshooting)  
+9. [Credits & License](#credits--license)
 
 ---
 
@@ -49,16 +50,22 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 | `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change                  | Medium          | ✅          |
 | `UK ENERGY MONITOR.js`. | When should i do my Laundry?                     | Dynamic^        |             |
 | `IOS ICONS.js`          | Template (SFicons) make own app icons            | Dynamic^        | ✅          |
-| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress   | Medium          | ✅          |
-| `                     ` |                                                  |                 |             |
-| `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       | Large           | ✅          |
-| `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   | Large           | ✅          |
-| `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  | Medium          | ✅          |
-| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       | Large           |             |     
+| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress   | Medium          | ✅          |  
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
 - ^ Dynamic size autuadjusts as you change widget size
-- 
+  
+---
+
+## COMING SOON
+
+| Widget Name             | Purpose                                          | Size(s)         | Dark Mode |
+|-------------------------|--------------------------------------------------|-----------------|-----------|
+| `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       | Large           | ✅        |
+| `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   | Large           | ✅        |
+| `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  | Medium          | ✅        |
+| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       | Large           |           |     
+
 ---
 
 ## SCRIPTS LAYOUT
