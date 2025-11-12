@@ -60,23 +60,17 @@ SHORTCUTNAME - name of your shortcut in iOS Shortcuts
 const colours = {
   light: {
     background: ["#EAEAEA", "#D8D8D8"],
-    buttonStart: 230,
-    buttonEnd: 180,
+    button: "#D8D8D8",
     icon: "#008794",
-    text: "#111111"},
+    text: "#111111"
+  },
   dark: {
     background: ["#444444", "#424242"],
-    buttonStart: 30,
-    buttonEnd: 100,
+    button: "#333333",
     icon: "#40E0D0",
-    text: "#FFFFFF"}
+    text: "#FFFFFF"
+  }
 }
-
-const mode = Device.isUsingDarkAppearance() ? "dark" : "light"
-const palette = colours[mode]
-
-function dyn(light, dark) {
-  return Color.dynamic(new Color(light), new Color(dark))}
 
 // #############################################
 // ############ BUTTON CONFIGURATION ###########
@@ -104,10 +98,6 @@ const shortcuts = [
 // ########### END OF USER CONFIG ##############
 // #############################################
 
-// #############################################
-// ############## DETECT WIDGET SIZE ###########
-// #############################################
-
 let rows, cols
 
 switch (config.widgetFamily) {
@@ -119,10 +109,18 @@ switch (config.widgetFamily) {
     rows = 4
     cols = 4
     break
-  default: // small or in-app preview
+  default:
     rows = 2
-    cols = 2}
+    cols = 2
+}
+
 const totalButtons = rows * cols
+
+// Layout constants
+const buttonSize = 80
+const buttonHeight = 76
+const iconSize = 40
+const textSize = 12
 
 // #############################################
 // ############## WIDGET LAYOUT ################
@@ -131,17 +129,14 @@ const totalButtons = rows * cols
 const widget = new ListWidget()
 widget.setPadding(6, 6, 6, 6)
 
-// Background gradient
+// Background gradient with dynamic colours
 const bgGradient = new LinearGradient()
-bgGradient.colors = palette.background.map(c => new Color(c))
+bgGradient.colors = [
+  Color.dynamic(new Color(colours.light.background[0]), new Color(colours.dark.background[0])),
+  Color.dynamic(new Color(colours.light.background[1]), new Color(colours.dark.background[1]))
+]
 bgGradient.locations = [0, 1]
 widget.backgroundGradient = bgGradient
-
-// Layout constants
-const buttonSize = 80
-const buttonHeight = 76
-const iconSize = 40
-const textSize = 12
 
 // #############################################
 // ############## BUTTON GRID ##################
@@ -155,46 +150,44 @@ for (let r = 0; r < rows; r++) {
   for (let c = 0; c < cols; c++) {
     const i = r * cols + c
     if (i >= totalButtons || i >= shortcuts.length) break
+    
     const shortcut = shortcuts[i]
-
     const button = row.addStack()
     button.size = new Size(buttonSize, buttonHeight)
     button.layoutVertically()
-    button.backgroundColor = dyn("#D8D8D8", "#333333")
+    button.backgroundColor = Color.dynamic(new Color(colours.light.button), new Color(colours.dark.button))
     button.cornerRadius = 12
     button.url = shortcut.url
-
     button.addSpacer(4)
     
-    // === ICON ===
+    // Icon
     const iconStack = button.addStack()
     iconStack.layoutHorizontally()
     iconStack.addSpacer()
     const sym = SFSymbol.named(shortcut.symbol)
     const img = iconStack.addImage(sym.image)
     img.imageSize = new Size(iconSize, iconSize)
-    img.tintColor = dyn(palette.icon, palette.icon)
+    img.tintColor = Color.dynamic(new Color(colours.light.icon), new Color(colours.dark.icon))
     iconStack.addSpacer()
-
     button.addSpacer(4)
 
-    // === BOTTOM LABEL ===
-    const bottomLabelStack = button.addStack()
-    bottomLabelStack.layoutHorizontally()
-    bottomLabelStack.addSpacer()
-    const label = bottomLabelStack.addText(shortcut.name)
+    // Label
+    const labelStack = button.addStack()
+    labelStack.layoutHorizontally()
+    labelStack.addSpacer()
+    const label = labelStack.addText(shortcut.name)
     label.font = Font.systemFont(textSize)
-    label.textColor = dyn(palette.text, palette.text)
+    label.textColor = Color.dynamic(new Color(colours.light.text), new Color(colours.dark.text))
     label.lineLimit = 1
-    bottomLabelStack.addSpacer()
-
+    labelStack.addSpacer()
     button.addSpacer(4)
 
-    if (c < cols - 1) row.addSpacer(12)}
+    if (c < cols - 1) row.addSpacer(12)
+  }
 
   row.addSpacer()
-  
-    if (r < rows - 1) widget.addSpacer(12)}
+  if (r < rows - 1) widget.addSpacer(12)
+}
 
 // #############################################
 // ############## WIDGET BUILD #################
@@ -203,8 +196,8 @@ for (let r = 0; r < rows; r++) {
 if (config.runsInWidget) {
   Script.setWidget(widget)
 } else {
-  // Default preview is small widget
-  widget.presentSmall()}
+  widget.presentLarge()
+}
 
 Script.complete()
 
