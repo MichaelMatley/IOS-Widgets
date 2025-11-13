@@ -1,7 +1,26 @@
 # IOS SCRIPTABLE WIDGETS
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
+
+--- 
+
+## UPDATES
+
+### 131125: 
+TWO NEW WIDGETS FOR THOSE LOOKING FOR A DISCREET AND SIMPLE IOS EXEPERIENCE
+- BLACK OPS : Icon button ui for ios foxus mode
+- SIMPLE : Text button ui for ios focus mode
+
+[Appendix: Previous Updates](#appendix-previous-updates)
+
+--- 
+
+## PREVIEWS
+
+<img width="649" height="635" alt="IMG_0324" src="https://github.com/user-attachments/assets/c4854ff1-c4d6-4189-8849-832b2fda262f" />
+
 <img width="1500" height="694" alt="image" src="https://github.com/user-attachments/assets/82b51371-a0d6-4581-84e8-a50cdb6e2198" />
+
 <img width="1096" height="542" alt="image" src="https://github.com/user-attachments/assets/397a6728-56c6-4077-a2d5-da42a9617a54" />
 
 ---
@@ -15,8 +34,9 @@
 5. [Installation Guide](#installation-guide)  
 6. [Customization Tips](#customization-tips)  
 7. [Widget Index](#widget-index)  
-8. [Appendix: Troubleshooting](#appendix-c-troubleshooting)  
-9. [Credits & License](#credits--license)
+8. [Appendix: Troubleshooting](#appendix-c-troubleshooting)
+9. [Appendix: Previous Updates](#appendix-previous-updates)
+10. [Credits & License](#credits--license)
 
 ---
 
@@ -37,7 +57,7 @@ These widgets were designed with fun & are for entertainment purposes only. Well
 
 ## WIDGET OVERVIEW
 
-This repository includes **10 unique widgets**, each crafted for specific use cases:
+This repository includes **12 unique widgets**, each crafted for specific use cases:
 
 | Widget Name             | Purpose                                           | Size(s)         | Dark Mode^^ |
 |-------------------------|---------------------------------------------------|-----------------|-------------|
@@ -51,6 +71,8 @@ This repository includes **10 unique widgets**, each crafted for specific use ca
 | `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |             |
 | `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅          |
 | `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅          |  
+| `BLACK OPS.js`.         | Simole icon UI for IOS.                           | Large          | ✅ Only     |  
+| `Simple.js`.            | Simole Text UI for IOS.                           | Large          | ✅ Only     |  
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
 - ^ Dynamic size autuadjusts as you change widget size
