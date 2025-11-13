@@ -27,16 +27,15 @@ TWO NEW WIDGETS FOR THOSE LOOKING FOR A DISCREET AND SIMPLE IOS EXEPERIENCE
 
 ## CONTENTS
 
-1. [Introduction](#introduction)  
+1. [Introduction](#hello-there...)  
 2. [Widget Overview](#widget-overview)
 3. [Coming Soon](#coming-soon)
-4. [Script Structure](#script-structure)  
+4. [Script Structure](#scripts-layout)  
 5. [Installation Guide](#installation-guide)  
-6. [Customization Tips](#customization-tips)  
-7. [Widget Index](#widget-index)  
-8. [Appendix: Troubleshooting](#appendix-c-troubleshooting)
-9. [Appendix: Previous Updates](#appendix-previous-updates)
-10. [Credits & License](#credits--license)
+6. [Customization Tips](#customization-&-themes)   
+7. [Appendix: Troubleshooting](#appendix-troubleshooting)
+8. [Appendix: Previous Updates](#appendix-previous-updates)
+9. [Credits & License](#credits--license)
 
 ---
 
@@ -59,20 +58,20 @@ These widgets were designed with fun & are for entertainment purposes only. Well
 
 This repository includes **12 unique widgets**, each crafted for specific use cases:
 
-| Widget Name             | Purpose                                           | Size(s)         | Dark Mode^^ |
+| Widget Name             | Purpose                                           | Size(s)         | Dark / Light Mode^^ |
 |-------------------------|---------------------------------------------------|-----------------|-------------|
-| `NETWORK STATUS.js`     | Connection monitor. Ping (ms) & battery power     | Small / Mediu   | ✅          |
-| `UNTITLED QUOTES.js`    | Philosophical quotes 50 (Cycles)                  | Medium.         | ✅          |
-| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)             | Dynamic^        | ✅          |
-| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)     | Medium          | ✅          |
-| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                   | Small / Medium  | ✅          |
-| `EXISTENTIAL.js`        | Cycling Existential Facts                         | Small / Medium  | ✅          |
-| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change               b   | Medium          | ✅          |
-| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |             |
-| `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅          |
-| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅          |  
-| `BLACK OPS.js`.         | Simole icon UI for IOS.                           | Large          | ✅ Only     |  
-| `Simple.js`.            | Simole Text UI for IOS.                           | Large          | ✅ Only     |  
+| `NETWORK STATUS.js`     | Connection monitor. Ping (ms) & battery power     | Small / Mediu   | ✅ / ✅         |
+| `UNTITLED QUOTES.js`    | Philosophical quotes 50 (Cycles)                  | Medium.         | ✅ / ✅          |
+| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)             | Dynamic^        | ✅ / ✅          |
+| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)     | Medium          | ✅ / ✅          |
+| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                   | Small / Medium  | ✅ / ✅          |
+| `EXISTENTIAL.js`        | Cycling Existential Facts                         | Small / Medium  | ✅ / ✅          |
+| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change               b   | Medium          | ✅ / ✅          |
+| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |                  |
+| `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅ / ✅          |
+| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅ / ✅          |  
+| `BLACK OPS.js`.         | Simple icon UI for IOS.                           | Large          | ✅ / 🚫          |  
+| `Simple.js`.            | Simple Text UI for IOS.                           | Large          | ✅ / 🚫          |  
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
 - ^ Dynamic size autuadjusts as you change widget size
@@ -125,31 +124,21 @@ CREDIT        :
 // #############################################
 // ######### FUNCTION & INSTRUCTION ############
 // #############################################
-1. instruction one.
-2. Instruction two.
-3. Instruction three.
-4. Instruction four.
+
+DESCRIPTION & FUNCTION
 
 // #############################################
 // ############## COLOR SCHEMES ################
 // #############################################
-### BLACKS ###       #000000 #1F2327 #263137 #333333
-### DRK GREY ###     #3E3E3E #424242 #444444 #4A4A4A
-### MED GRAY ###     #5A6A7C #7C8C9C #909090 #AAB4C0  
-### LGT GREY ###     #D8D8D8 #DDDDDD #E0E0E0 #EAEAEA 
-### WHITES ###       #D7E6E6 #F9F9F9 #FFFFFF 
+
 ### B/G ACNTS ###    #1A1F2A #3C494F #2C3444 #3E4A5C  
-### YLLW ACNTS ###   #FFEE8C #FFDE21 #FFD700 
 ### TEAL ACNTS ###   #00637C #008794 #40E0DO 
-### TEAL SCDRY ###   #55D5D9 #2E9CAA #0D4D53
-### GREEN #4ADE80 ORANGE #F59E0B RED #EF4444 ###
 
 // #############################################
 // ################## CONTENTS #################
 // #############################################
     READ ME 
     USER CONFIGURATION 
-    CONSTANTS
     CORE LOGIC
     WIDGET LAYOUT
     WIDGET EXECUTION
@@ -197,8 +186,8 @@ Script.complete();
 
 ```
 
-
-## INSTALLATION GUIDE (If you cant handle this then why are you on GITHUB)
+## INSTALLATION GUIDE 
+(If you cant handle this then why are you on GITHUB)
 
 1. Install [Scriptable](https://apps.apple.com/app/scriptable/id1405459188) from the App Store.  
 2. Clone or download this repository.  
