@@ -1,3 +1,12 @@
+<!-- === Project Badges === -->
+
+![License](https://img.shields.io/github/license/MichaelMatley/IOS-Widgets?color=808080)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Downloads](https://img.shields.io/badge/downloads-1M-blue)
+![Framework](https://img.shields.io/badge/framework-Scriptable-2f72da?logo=javascript&logoColor=white)
+![Language](https://img.shields.io/badge/language-JavaScript-f7df1e?logo=javascript&logoColor=black)
+[![Patreon](https://img.shields.io/badge/support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
+
 # IOS SCRIPTABLE WIDGETS
 
 > *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
