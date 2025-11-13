@@ -1,5 +1,3 @@
-<!-- === Project Badges (Dark Style) === -->
-
 ![License](https://img.shields.io/github/license/MichaelMatley/IOS-Widgets?color=444444&label=License)
 ![Framework](https://img.shields.io/badge/Framework-Scriptable-2f72da?logo=apple&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-JavaScript-181818?logo=javascript&logoColor=f7df1e)  
@@ -7,18 +5,19 @@
 ![Widgets](https://img.shields.io/badge/Widgets-12-555555)
 ![Version](https://img.shields.io/github/v/release/MichaelMatley/IOS-Widgets?color=444444&label=Version)  
 [![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
+
+--- 
+
 # IOS SCRIPTABLE WIDGETS
 
-> *Ecleptic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
+> *Eclectic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
 
 --- 
 
 ## UPDATES
 
-### 131125: 
-TWO NEW WIDGETS FOR THOSE LOOKING FOR A DISCREET AND SIMPLE IOS EXEPERIENCE
-- BLACK OPS : Icon button ui for ios foxus mode
-- SIMPLE : Text button ui for ios focus mode
+### V1.0: 
+
 
 [Appendix: Previous Updates](#appendix-previous-updates)
 
@@ -36,15 +35,17 @@ TWO NEW WIDGETS FOR THOSE LOOKING FOR A DISCREET AND SIMPLE IOS EXEPERIENCE
 
 ## CONTENTS
 
-1. [Introduction](#hello-there...)  
-2. [Widget Overview](#widget-overview)
-3. [Coming Soon](#coming-soon)
-4. [Script Structure](#scripts-layout)  
-5. [Installation Guide](#installation-guide)  
-6. [Customization Tips](#customization-&-themes)   
-7. [Appendix: Troubleshooting](#appendix-troubleshooting)
-8. [Appendix: Previous Updates](#appendix-previous-updates)
-9. [Credits & License](#credits--license)
+1. [Preview](#preview)
+2. [Introduction](#hello-there...)
+3. [Why Scriptable](#why-scriptable) 
+4. [Widget Overview](#widget-overview)
+5. [Coming Soon](#coming-soon)
+6. [Script Structure](#scripts-layout)  
+7. [Installation Guide](#installation-guide)  
+8. [Customization Tips](#customization-&-themes)   
+9. [Appendix: Troubleshooting](#appendix-troubleshooting)
+10. [Appendix: Previous Updates](#appendix-previous-updates)
+11. [Credits & License](#credits--license)
 
 ---
 
@@ -55,11 +56,20 @@ This repository exists because a few weeks ago i was looking for a specific widg
 
 These widgets are built on IPHONE 16 PRO MAX and i know there are some misalignments on other devices (i.e. My IPad 10th Gen). 
 
-Temporarily, i have a two sets of scripts with their layouts, as this evolves i will look to add auto sizing in where needed. All scripts contained here within are iPhone 16 pro max ones, so just adjust the padding as needed. 
+Temporarily, i run with two sets of scripts with their layouts, as this evolves i will look to add auto sizing in where needed. All scripts contained here within are iPhone 16 pro max ones, so adjust the padding as needed. 
 
-These widgets were designed with fun & are for entertainment purposes only. Well not all of them, some of them were designed for me and have purpose (and in the case of the energy monitor ; my Mum, so she knows when to put the washing on). 
+These widgets were designed with *fun* & are for entertainment purposes only. Well not all of them, some of them were designed for me and have purpose (and in the case of the energy monitor ; my Mum, so she knows when to put the washing on). 
 
-> *if it doesn't exist, make it yourself.*
+--- 
+
+## WHY SCRIPTABLE 
+
+- Scriptable provides a JS (JavaScript) automation app that allows any user to throw together a script and create an executable function on iOS and or a truly customisable widget that can be created to their needs and wants, within the iOS framework. 
+- With thanks to **Simon Støvring** for the scriptable app and creating the framework to make true IPhone customisation possible. 
+  
+---
+
+###> *if it doesn't exist, make it yourself.*
 
 ---
 
@@ -68,22 +78,22 @@ These widgets were designed with fun & are for entertainment purposes only. Well
 This repository includes **12 unique widgets**, each crafted for specific use cases:
 
 | Widget Name             | Purpose                                           | Size(s)         | Dark / Light Mode^^ |
-|-------------------------|---------------------------------------------------|-----------------|-------------|
-| `NETWORK STATUS.js`     | Connection monitor. Ping (ms) & battery power     | Small / Mediu   | ✅ / ✅         |
-| `UNTITLED QUOTES.js`    | Philosophical quotes 50 (Cycles)                  | Medium.         | ✅ / ✅          |
-| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)             | Dynamic^        | ✅ / ✅          |
-| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)     | Medium          | ✅ / ✅          |
-| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                   | Small / Medium  | ✅ / ✅          |
-| `EXISTENTIAL.js`        | Cycling Existential Facts                         | Small / Medium  | ✅ / ✅          |
-| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change               b   | Medium          | ✅ / ✅          |
-| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |                  |
-| `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅ / ✅          |
-| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅ / ✅          |  
-| `BLACK OPS.js`.         | Simple icon UI for IOS.                           | Large          | ✅ / 🚫          |  
-| `Simple.js`.            | Simple Text UI for IOS.                           | Large          | ✅ / 🚫          |  
+|-------------------------|---------------------------------------------------|-----------------|---------------------|
+| `NETWORK STATUS.js`     | Connection monitor. Ping (ms) & battery power     | Small / Medium  | ✅ / ✅             |
+| `UNTITLED QUOTES.js`    | Philosophical quotes 50 (Cycles)                  | Medium          | ✅ / ✅             |
+| `GRIDCUTS MONO.js`      | Shortcuts Template w/ 1 Label (lower)             | Dynamic^        | ✅ / ✅             |
+| `GRIDCUTS DUO.js`       | Shortcuts Template w 2 Labels (upper & lower)     | Medium          | ✅ / ✅             |
+| `DIGITAL COUNTDOWN.js`. | Countdown to preset date & time                   | Small / Medium  | ✅ / ✅             |
+| `EXISTENTIAL.js`        | Cycling through Existential Facts                 | Small / Medium  | ✅ / ✅             |
+| `ALGORITHM OF DAY.js`.  | ML Algorithms (40) Daily Change               b   | Medium          | ✅ / ✅             |
+| `UK ENERGY MONITOR.js`. | When should i do my Laundry?                      | Dynamic^        |                     |
+| `IOS ICONS.js`          | Template (SFicons) make own app icons             | Dynamic^        | ✅ / ✅             |
+| `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅ / ✅             |  
+| `BLACK OPS.js`.         | Simple icon UI for IOS.                           | Large           | ✅ / 🚫             |  
+| `SIMPLE.js`.            | Simple Text UI for IOS.                           | Large           | ✅ / 🚫             |  
 
-- ^^ Dark Mode = Light and Dark themes dynamic shifting and custimsable
-- ^ Dynamic size autuadjusts as you change widget size
+- ^^ Dark Mode = Light and Dark themes dynamic shifting and customisable
+- ^ Dynamic size auto-adjusts as you change widget size
   
 ---
 
@@ -94,13 +104,12 @@ This repository includes **12 unique widgets**, each crafted for specific use ca
 | `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       |     
 | `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   |         
 | `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  |       
-| `SIMPLE.js`.            | COMING SOON: SIMPLE IOS UI                       |           
 
 ---
 
 ## SCRIPTS LAYOUT
 
-Each widget follows a modular structure for clarity and ease of customization:
+*Each widget follows a modular structure for clarity and ease of customization*
 
 DISCLAIMER: Whilst i'd love to tell you that every script doesnt have any redundant code and strictly follows the layout below and works in the most efficient way......
 
