@@ -4,7 +4,6 @@
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 ![Widgets](https://img.shields.io/badge/Widgets-12-555555)
 ![Version](https://img.shields.io/github/v/release/MichaelMatley/IOS-Widgets?color=444444&label=Version)  
-[![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
 
 --- 
 
@@ -69,7 +68,7 @@ These widgets were designed with *fun* & are for entertainment purposes only. We
   
 ---
 
-###> *if it doesn't exist, make it yourself.*
+> *if it doesn't exist, make it yourself.*
 
 ---
 
@@ -236,3 +235,6 @@ Script.complete();
 - **Simon Støvring** Thank you for Scriptable 
 
 Crafted by [Michael](https://github.com/michaelmatley) 
+
+If you like any of the widgets and want to support more, please do so on Patreon
+[![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
