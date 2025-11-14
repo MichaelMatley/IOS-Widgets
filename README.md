@@ -75,6 +75,9 @@ These widgets were designed with *fun* & are for entertainment purposes only. We
 ## WIDGET OVERVIEW
 
 This repository includes **12 unique widgets**, each crafted for specific use cases:
+- Nearly all the widget scripts are customisable and in most cases, have
+built in dynamic theme changing between IOS dark and light modes. 
+- Like one? download it and change the colors to your own themes and make it your own! a
 
 | Widget Name             | Purpose                                           | Size(s)         | Dark / Light Mode^^ |
 |-------------------------|---------------------------------------------------|-----------------|---------------------|
@@ -236,5 +239,5 @@ Script.complete();
 
 Crafted by [Michael](https://github.com/michaelmatley) 
 
-If you like any of the widgets and want to support more, please do so on Patreon
+Thank you for reading this far and if you like any of the widgets and want to support more, please do so here:
 [![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
