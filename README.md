@@ -13,15 +13,6 @@
 
 --- 
 
-## UPDATES
-
-### V1.0: 
-
-
-[Appendix: Previous Updates](#appendix-previous-updates)
-
---- 
-
 ## PREVIEWS
 
 <img width="649" height="635" alt="IMG_0324" src="https://github.com/user-attachments/assets/c4854ff1-c4d6-4189-8849-832b2fda262f" />
