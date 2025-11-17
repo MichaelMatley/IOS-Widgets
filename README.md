@@ -61,7 +61,7 @@ These widgets were designed with *fun* & are for entertainment purposes only. We
 
 ## WIDGET OVERVIEW
 
-This repository includes **12 unique widgets**, each crafted for specific use cases:
+This repository includes **13 unique widgets**, each crafted for specific use cases:
 - Nearly all the widget scripts are customisable and in most cases, have
 built in dynamic theme changing between IOS dark and light modes. 
 - Like one? download it and change the colors to your own themes and make it your own! a
@@ -80,6 +80,7 @@ built in dynamic theme changing between IOS dark and light modes.
 | `PROGRESS TRACKER.js`.  | Track the day, week etc and your life progress    | Medium          | ✅ / ✅             |  
 | `BLACK OPS.js`.         | Simple icon UI for IOS.                           | Large           | ✅ / 🚫             |  
 | `SIMPLE.js`.            | Simple Text UI for IOS.                           | Large           | ✅ / 🚫             |  
+| `PRIVACY STATUS.js`.    | Privacy audit, monitor and checklist.             | Small           | ✅ / ✅             |  
 
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and customisable
 - ^ Dynamic size auto-adjusts as you change widget size
