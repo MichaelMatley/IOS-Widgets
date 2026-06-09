@@ -7,6 +7,13 @@
 
 --- 
 
+# SUPPORT US (ALWAYS OPTIONAL - ALWAYS GRATEFUL) 
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/michaelmatley)
+[![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator)
+
+---
+
 # IOS SCRIPTABLE WIDGETS
 
 > *Eclectic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
@@ -225,7 +232,7 @@ Script.complete();
 - **Automater** Everyone on there for their posts, i learnt a lot (even for being 7 years behind)
 - **Simon Støvring** Thank you for Scriptable 
 
-Crafted by [Michael](https://github.com/michaelmatley) 
+Crafted by [E404-tagnet](https://github.com/michaelmatley) 
 
 Thank you for reading this far and if you like any of the widgets and want to support more, please do so here:
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/michaelmatley)
