@@ -1,6 +1,7 @@
 ![License](https://img.shields.io/github/license/MichaelMatley/IOS-Widgets?color=444444&label=License) ![Framework](https://img.shields.io/badge/Framework-Scriptable-2f72da?logo=apple&logoColor=white) ![Language](https://img.shields.io/badge/Language-JavaScript-181818?logo=javascript&logoColor=f7df1e)  
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen) ![Widgets](https://img.shields.io/badge/Widgets-12-555555) ![Version](https://img.shields.io/github/v/release/MichaelMatley/IOS-Widgets?color=444444&label=Version)  
-[![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/michaelmatley)
+[![Patreon](https://img.shields.io/badge/Support-Patreon-ff424d?logo=patreon&logoColor=white)](https://www.patreon.com/VeritasExMachina?utm_campaign=creatorshare_creator) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/e404.ta
+gnet)
 
 ---
 
