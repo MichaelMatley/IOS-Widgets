@@ -4,9 +4,6 @@
 [![License](https://img.shields.io/github/license/e404-tagnet/IOS-Widgets?color=313244&labelColor=11111b&label=License&style=flat-square)](https://github.com/e404-tagnet/IOS-Widgets/blob/PHASE-1/LICENSE)
 [![Status](https://img.shields.io/badge/Status-stable-a6e3a1?labelColor=11111b&style=flat-square)](https://github.com/e404-tagnet/IOS-Widgets/pulse)
 [![Version](https://img.shields.io/github/v/release/e404-tagnet/IOS-Widgets?color=313244&labelColor=11111b&label=Version&style=flat-square)](https://github.com/e404-tagnet/IOS-Widgets/releases)
-[![Framework](https://img.shields.io/badge/Framework-Scriptable-89dceb?labelColor=11111b&style=flat-square&logo=apple&logoColor=89dceb)](https://apps.apple.com/app/scriptable/id1405459188)
-[![Language](https://img.shields.io/badge/Language-JavaScript-f9e2af?labelColor=11111b&style=flat-square&logo=javascript&logoColor=f9e2af)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Widgets](https://img.shields.io/badge/Widgets-13-a6adc8?labelColor=11111b&style=flat-square)](https://github.com/e404-tagnet/IOS-Widgets#widget-overview)
 [![Repo](https://img.shields.io/badge/Repo-IOS-Widgets-94e2d5?labelColor=11111b&style=flat-square&logo=github&logoColor=94e2d5)](https://github.com/e404-tagnet/IOS-Widgets)
 [![Tagnet](https://img.shields.io/badge/By-Tagnet-89dceb?labelColor=11111b&style=flat-square&logo=tag&logoColor=89dceb)](https://tagnet.dev)
 
@@ -17,11 +14,9 @@
 
 > *Eclectic, somewhat functional, and occasionally user-friendly widgets designed for Scriptable on iOS.*
 
-
 ## PREVIEWS
 
 <img width="1301" height="940" alt="IMG_0356" src="https://github.com/user-attachments/assets/16064287-512e-43d1-86ab-849a377519c9" />
-
 
 ## CONTENTS
 
@@ -37,7 +32,6 @@
 10. [Appendix: Previous Updates](#appendix-previous-updates)
 11. [Credits & License](#credits--license)
 
-
 ## HELLO THERE... 
 
 Welcome to my growing set of Scriptable widgets for iOS. 
@@ -49,15 +43,12 @@ Temporarily, i run with two sets of scripts with their layouts, as this evolves 
 
 These widgets were designed with *fun* & are for entertainment purposes only. Well not all of them, some of them were designed for me and have purpose (and in the case of the energy monitor ; my Mum, so she knows when to put the washing on). 
 
-
 ## WHY SCRIPTABLE 
 
 - Scriptable provides a JS (JavaScript) automation app that allows any user to throw together a script and create an executable function on iOS and or a truly customisable widget that can be created to their needs and wants, within the iOS framework. 
 - With thanks to **Simon Støvring** for the scriptable app and creating the framework to make true IPhone customisation possible. 
   
-
 > *if it doesn't exist, make it yourself.*
-
 
 ## WIDGET OVERVIEW
 
@@ -85,7 +76,6 @@ built in dynamic theme changing between IOS dark and light modes.
 - ^^ Dark Mode = Light and Dark themes dynamic shifting and customisable
 - ^ Dynamic size auto-adjusts as you change widget size
   
-
 ## COMING SOON
 
 | Widget Name             | Purpose                                          | 
@@ -93,7 +83,6 @@ built in dynamic theme changing between IOS dark and light modes.
 | `BAYESIAN INFERENCE.js` | COMING SOON: FORTUNETELLER                       |     
 | `MODEL CARDS.js`        | COMING SOON: MODEL DATA CARDS.                   |         
 | `PROBABILITY CALC.js`.  | COMING SOON: WHAT ARE THE ODDS?                  |       
-
 
 ## SCRIPTS LAYOUT
 
@@ -200,20 +189,17 @@ Script.complete();
 3. Copy the desired `.js` file into Scriptable.  
 4. Add the widget to your home screen and select the script.
 
-
 ## CUSTOMISATION & THEMES
 
 - **Themes**: Most widgets support dark & light mode through dynamic functions and the colors / fonts / sizes are contained within a user configuration section usually at the top of the script 
 - **Labels**: Toggle label visibility via `showLabels` in the config.  
 - **Spacing**: Adjust padding and alignment for different screen sizes.
 
-
 ## APPENDIX: TROUBLESHOOTING
 
 - **Widget not updating?** Ensure Background App Refresh is enabled for Scriptable.  
 - **Layout misaligned?** Try adjusting `cornerRadius` or `padding` values.  
 - **Data not loading?** Check API keys or permissions (e.g., Energy Monitor, Network Status).
-
 
 ## CREDITS
 
